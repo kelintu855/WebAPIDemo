@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="mainModelStoreContainer" CdmEntityContainer="mainEntities">
+    <EntitySetMapping Name="OverPaymentDetails">
+      <EntityTypeMapping TypeName="mainModel.OverPaymentDetail">
+        <MappingFragment StoreEntitySet="OverPaymentDetails">
+          <ScalarProperty Name="OverPaymentID" ColumnName="OverPaymentID" />
+          <ScalarProperty Name="LastUpdated" ColumnName="LastUpdated" />
+          <ScalarProperty Name="SysSrcSyncDate" ColumnName="SysSrcSyncDate" />
+          <ScalarProperty Name="CreateDate" ColumnName="CreateDate" />
+          <ScalarProperty Name="OverPaymentAmt" ColumnName="OverPaymentAmt" />
+          <ScalarProperty Name="BalanceAmt" ColumnName="BalanceAmt" />
+          <ScalarProperty Name="MemberId" ColumnName="MemberId" />
+          <ScalarProperty Name="ClaimNumber" ColumnName="ClaimNumber" />
+          <ScalarProperty Name="Id" ColumnName="Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

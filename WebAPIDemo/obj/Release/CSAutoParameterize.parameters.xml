@@ -3,4 +3,7 @@
   <parameter name="TestDB-Web.config Connection String" description="TestDB Connection String used in web.config by the application to access the database." defaultValue="Data Source=C:\Users\colintu\sqlite\test.db;Initial Catalog=MyReleaseDB;Integrated Security=True" tags="SqlConnectionString">
     <parameterEntry kind="XmlFile" scope="C:\\Users\\colintu\\source\\repos\\WebAPIDemo\\WebAPIDemo\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='TestDB']/@connectionString" />
   </parameter>
+  <parameter name="mainEntities-Web.config Connection String" description="mainEntities Connection String used in web.config by the application to access the database." defaultValue="metadata=res://*/Model1.csdl|res://*/Model1.ssdl|res://*/Model1.msl;provider=System.Data.SQLite.EF6;provider connection string=&quot;data source=C:\Users\colintu\source\repos\WebAPIDemo\OverPaymentDetailsDB.db&quot;" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\colintu\\source\\repos\\WebAPIDemo\\WebAPIDemo\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='mainEntities']/@connectionString" />
+  </parameter>
 </parameters>
